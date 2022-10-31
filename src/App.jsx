@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
@@ -56,6 +57,7 @@ function App() {
   };
 
   return (
+    <>
     <div className="App">
       <motion.div
         data-Open={open}
@@ -164,6 +166,7 @@ function App() {
         <hr /> I am Body */}
       </div>
     </div>
+    </>
   );
 }
 
